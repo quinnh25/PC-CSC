@@ -1,38 +1,57 @@
-html {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+	--font-family: 'Roboto', sans-serif;
+	--p: 1rem/120% var(--font-family);
+	--h1: bold 2.98rem/120% var(--font-family);
 	scroll-behavior: smooth;
 }
 
 body {
-	font-family: Monaco, sans-serif;
+	font-family: var(--font-family);
 	margin: 0;
 	padding: 0;
 	background-color: #f5f5f5;
 }
+
+p {
+	font: var(--p);
+}
+
 header {
 	background-color: #0e1c97;
 	color: #fff;
 	padding: 19px;
 	text-align: center;
 }
+
+h1 {
+	font: var(--h1);
+}
+
 nav {
 	background-color: #dfea4f;
 	color: #fff;
 	padding: 10px;
 	text-align: center;
 }
+
 nav a {
 	color: #000000;
 	text-decoration: none;
 	margin: 0 10px;
 }
+
 nav a:hover {
 	text-decoration: underline;
 }
+
 section {
 	padding: 20px;
 	margin: 20px;
 	background-color: #fff;
 }
+
 footer {
 	background-color: #0e1c97;
 	color: #fff;
@@ -42,6 +61,6 @@ footer {
 
 #google-calendar {
 	border: 0;
-	width: 50vw;
-	height: 50vw;
+	width: 50em;
+	height: 50em;
 }
