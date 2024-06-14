@@ -21,7 +21,7 @@ p {
 header {
 	background-color: #0e1c97;
 	color: #fff;
-	padding: 19px;
+	padding: 1.25em;
 	text-align: center;
 }
 
@@ -32,14 +32,14 @@ h1 {
 nav {
 	background-color: #dfea4f;
 	color: #fff;
-	padding: 10px;
+	padding: 0.625em;
 	text-align: center;
 }
 
 nav a {
 	color: #000000;
 	text-decoration: none;
-	margin: 0 10px;
+	margin: 0 0.625rem;
 }
 
 nav a:hover {
@@ -47,19 +47,19 @@ nav a:hover {
 }
 
 section {
-	padding: 20px;
-	margin: 20px;
+	padding: 1.25em;
+	margin: 1.25rem;
 	background-color: #fff;
 }
 
 footer {
 	background-color: #0e1c97;
 	color: #fff;
-	padding: 10px;
+	padding: 0.625em;
 	text-align: center;
 }
 
-#google-calendar {
+.google-calendar {
 	border: 0;
 	width: 50em;
 	height: 50em;
