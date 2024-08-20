@@ -52,6 +52,13 @@ section {
 	background-color: #fff;
 }
 
+div {
+	padding: 1.25em;
+	margin: 1.25rem;
+	background-color: #fff;
+}
+
+
 footer {
 	background-color: #0e1c97;
 	color: #fff;
