@@ -78,5 +78,9 @@ ul {
   border: 3px solid #ddd;  /* Adds a subtle border */
   object-fit: cover;       /* Ensures the image covers the entire container */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Adds a subtle shadow */
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
