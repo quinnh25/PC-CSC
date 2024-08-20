@@ -59,6 +59,11 @@ footer {
 	text-align: center;
 }
 
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
 .google-calendar {
 	border: 0;
 	width: 50em;
