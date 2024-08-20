@@ -70,3 +70,13 @@ ul {
 	width: 50em;
 	height: 50em;
 }
+
+.profile-picture {
+  width: 150px;            /* Set the width of the image */
+  height: 150px;           /* Set the height of the image */
+  border-radius: 50%;      /* Makes the image circular */
+  border: 3px solid #ddd;  /* Adds a subtle border */
+  object-fit: cover;       /* Ensures the image covers the entire container */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Adds a subtle shadow */
+}
+
