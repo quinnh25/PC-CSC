@@ -5,6 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PC CS Club</title>
     <link rel="stylesheet" href="../style.css">
+
+	<script>
+	        var adPicture = new Array("../media/Brady/IMG_4217.jpg", "../media/Brady/IMG_4218.jpg", "../media/Brady/IMG_4219.jpg", "../media/Brady/IMG_4220.jpg")
+	
+	        var thisAd = 0
+	
+	        function cycle() {
+	            if (document.images) {
+	                if (document.adPicture.complete) {
+	                    thisAd++
+	                    if (thisAd == adPicture.length-1) {
+	                        thisAd = 0
+	                    }
+	                    document.adPicture.src = adPicture[thisAd]
+	                }
+	                setTimeout("cycle()", 3000)
+	            }
+	            else {
+	                i = 0
+	            }
+	        }
+	
+	        var newPic = 0
+	
+	        function chngImg() {
+	            var myImages = new Array("../media/Brady/IMG_4217.jpg", "../media/Brady/IMG_4218.jpg", "../media/Brady/IMG_4219.jpg", "../media/Brady/IMG_4220.jpg")
+	            newPic++
+	
+	            if (newPic > myImages.length-1) {
+	                newPic = 0
+	            }
+	
+	            document.mypic.src = myImages[newPic]
+	            return false
+	        }
+    	</script>
 </head>
 <body>
     <nav>
@@ -42,5 +78,10 @@
         </ul>
 
     </div>
+	<div> <!--Slideshow -->
+		<a href="" onclick="return chngImg()">
+            	<img name="mypic" src="../media/Brady/IMG_4217.jpg" height="300px" alt="slideshow"> </a>
+            	<p>(click to cycle)</p>
+	</div>
 </body>
 </html>
