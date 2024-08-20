@@ -1,23 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PC CS Club</title>
-    <link rel="stylesheet" href="../style.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>PC CS Club</title>
+	<link rel="stylesheet" href="../style.css">
+
+	<script>
+	        var adPicture = new Array("../media/quinn.jpg", "../media/jacob.png", "../media/Brady.png")
+	
+	        var thisAd = 0
+	
+	        function cycle() {
+	            if (document.images) {
+	                if (document.adPicture.complete) {
+	                    thisAd++
+	                    if (thisAd == 2) {
+	                        thisAd = 0
+	                    }
+	                    document.adPicture.src = adPicture[thisAd]
+	                }
+	                setTimeout("cycle()", 3000)
+	            }
+	            else {
+	                i = 0
+	            }
+	        }
+	
+	        var newPic = 0
+	
+	        function chngImg() {
+	            var myImages = new Array("../media/quinn.jpg", "../media/jacob.png", "../media/Brady.png")
+	            newPic++
+	
+	            if (newPic > 2) {
+	                newPic = 0
+	            }
+	
+	            document.mypic.src = myImages[newPic]
+	            return false
+	        }
+    	</script>
 </head>
 <body>
-    <nav>
-			<a href="https://pccsc.club/#about">About</a>
-			<a href="https://pccsc.club/#events">Events</a>
-			<a href="https://pccsc.club/#resources">Resources</a>
-			<a href="https://pccsc.club/#contact">Contact</a>
-			<a href="https://pccsc.club/members">Members</a>
-		</nav>
-    <header>
-        <img src="../media/Brady.png" alt="Profile Picture" class="profile-picture">
-        <h1>Brady Jensenius</h1>
-        
-    </header>
+    	<nav>
+		<a href="https://pccsc.club/#about">About</a>
+		<a href="https://pccsc.club/#events">Events</a>
+		<a href="https://pccsc.club/#resources">Resources</a>
+		<a href="https://pccsc.club/#contact">Contact</a>
+		<a href="https://pccsc.club/members">Members</a>
+	</nav>
+	
+    	<header>
+        	<img src="../media/Brady.png" alt="Profile Picture" class="profile-picture">
+        	<h1>Brady Jensenius</h1>
+    	</header>
+	
+	<div> <!-- ! unordered list about hobbies, activities, personal interests, etc.> -->
+        	<h2>Sports, Activities, and Hobbies</h2>
+        	<ul>
+            		<li>Golf</li>
+            		<li>Ski Racing</li>
+            		<li>Programming</li>
+            		<li>Video Games</li>
+		        <ul>
+		                <li>Elden Ring</li>
+		                <li>Fortnite</li>
+		        	<li>Minecraft</li>
+		        </ul>
+        	</ul>
+    	</div>
+
+	<div> <!--Slideshow -->
+		<a href="" onclick="return chngImg()">
+            	<img name="mypic" src="../media/quinn.jpg" height="300px" alt="slideshow"> </a>
+            	<p>(click to cycle)</p>
+	</div>
 </body>
 </html>
