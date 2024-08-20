@@ -79,8 +79,8 @@ ul {
 }
 
 .profile-picture {
-  width: 150px;            /* Set the width of the image */
-  height: 150px;           /* Set the height of the image */
+  width: 200px;            /* Set the width of the image */
+  height: 200px;           /* Set the height of the image */
   border-radius: 50%;      /* Makes the image circular */
   border: 3px solid #ddd;  /* Adds a subtle border */
   object-fit: cover;       /* Ensures the image covers the entire container */
