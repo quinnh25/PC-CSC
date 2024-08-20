@@ -62,6 +62,7 @@ footer {
 ul {
   list-style-type: disc;
   padding-left: 20px;
+	font-size: 30px;
 }
 
 .google-calendar {
