@@ -24,6 +24,7 @@ header {
 	padding: 1.25em;
 	text-align: center;
 	width: 100%;
+	padding-top: 100px;
 }
 
 h1 {
@@ -36,6 +37,7 @@ nav {
 	padding: 0.625em;
 	text-align: center;
 	position: fixed;
+	width: 100%;
 }
 
 nav a {
