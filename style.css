@@ -55,7 +55,7 @@ section {
 	margin: 1.25rem;
 	background-color: #fff;
 	border-radius: 20px;
-	box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+	box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 div {
@@ -63,7 +63,7 @@ div {
 	margin: 1.25rem;
 	background-color: #fff;
 	border-radius: 20px;
-	box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+	box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 
