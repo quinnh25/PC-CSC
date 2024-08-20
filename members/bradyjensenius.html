@@ -15,7 +15,7 @@
 	            if (document.images) {
 	                if (document.adPicture.complete) {
 	                    thisAd++
-	                    if (thisAd == 2) {
+	                    if (thisAd == adPicture.length-1) {
 	                        thisAd = 0
 	                    }
 	                    document.adPicture.src = adPicture[thisAd]
@@ -33,7 +33,7 @@
 	            var myImages = new Array("../media/Brady/IMG_4217.jpg", "../media/Brady/IMG_4218.jpg", "../media/Brady/IMG_4219.jpg", "../media/Brady/IMG_4220.jpg")
 	            newPic++
 	
-	            if (newPic > 2) {
+	            if (newPic > myImages.length-1) {
 	                newPic = 0
 	            }
 	
