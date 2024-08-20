@@ -87,8 +87,3 @@ ul {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Adds a subtle shadow */
 
 }
-
-.profile-container {
-  display: flex;
-  justify-content: center;  /* Centers horizontally */
-}
