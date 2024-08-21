@@ -21,7 +21,7 @@ p {
 }
 
 header {
-	background-color: #0e1c97;
+	background: linear-gradient(to bottom, #0e1c97 0%, #0e1c97 90%, rgba(255, 255, 255, 0) 100%);
 	color: #fff;
 	padding: 1.25em;
 	text-align: center;
