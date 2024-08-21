@@ -123,3 +123,37 @@ ul {
 }
 
 
+.animated-underline {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .animated-underline::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px; /* Adjust thickness of underline */
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(
+      to right,
+      transparent 0%,
+      transparent 50%,
+      rgb(71, 74, 250) 50%,
+      rgb(255, 255, 255) 55%,
+      transparent 55%,
+      transparent 100%
+    );
+    background-size: 200% 100%;
+    animation: underlineZip 2.5s cubic-bezier(0.25, 0.1, 0.6, 1) infinite;
+  }
+  
+  @keyframes underlineZip {
+    0% {
+      background-position: 100% 0;
+    }
+    100% {
+      background-position: -100% 0;
+    }
+  }
+
