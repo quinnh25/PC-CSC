@@ -12,22 +12,6 @@
 
         var thisAd = 0
 
-        function cycle() {
-            if (document.images) {
-                if (document.adPicture.complete) {
-                    thisAd++
-                    if (thisAd == 2) {
-                        thisAd = 0
-                    }
-                    document.adPicture.src = adPicture[thisAd]
-                }
-                setTimeout("cycle()", 3000)
-            }
-            else {
-                i = 0
-            }
-        }
-
         var newPic = 0
 
         function chngImg() {
@@ -72,6 +56,8 @@
             </ul>
             <li>Tennis</li>
             <li><a href="https://usapickleball.org/what-is-pickleball/">Pickleball</a></li>
+		<li>ping pong</li>
+		<li>hiking</li>
             <li>Programming</li>
             <li>Video Games</li>
             <ul>
@@ -89,9 +75,7 @@
             <p>(click to cycle)</p>
         
     </div>
-		<div>
-        <img src="../media/quinn.jpg" name="adPicture" alt="slideshow" height="300px">
-    </div>
+	
 		
 	</body>
 </html>
