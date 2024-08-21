@@ -104,7 +104,7 @@ ul {
 }
 
 .bg-animation {
-	background: linear-gradient(-45deg, #eaf076, #0f22cb, #e2ea82, #2329d5);
+	background: linear-gradient(-45deg, #ffffff, #a6baf8, #ffffff, #ebff67);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
 	height: 100vh;
