@@ -18,9 +18,9 @@
             var myImages = new Array("../quinn/quinn2.png", "../quinn/quinn1.png", "../quinn/quinn3.png", "../quinn/quinn4.png", "../quinn/quinn5.png")
             newPic++
 
-            if (newPic > 2) {
-                newPic = 0
-            }
+            if (newPic > myImages.length-1) {
+	                newPic = 0
+	            }
 
             document.mypic.src = myImages[newPic]
             return false
