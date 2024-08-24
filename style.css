@@ -31,6 +31,8 @@ header {
 
 h1 {
 	font: var(--h1);
+	font-family: tahoma; 
+	font-size: clamp(16px, 5vw, 40px);
 }
 
 nav {
@@ -80,13 +82,13 @@ footer {
 ul {
   list-style-type: disc;
   padding-left: 20px;
-	font-size: 30px;
+  font-size: 30px;
 }
 
 .google-calendar {
 	border: 0;
-	width: 50em;
-	height: 50em;
+	height: 40em;
+	width: clamp(20em, 100%, 50em);
 }
 
 .profile-picture {
