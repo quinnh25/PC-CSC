@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* * {
+    background-color: rgba(0, 255, 89, 0.1) !important;
+} */
+
 :root {
 	--font-family: 'Roboto', sans-serif;
 	--p: 1rem/120% var(--font-family);
@@ -14,26 +24,14 @@ body {
 	padding: 0;
 	height: 100%;
 	width: 100%;
-	overflow-x: hidden;
 }
 
 p {
 	font: var(--p);
 }
 
-header {
-	background: linear-gradient(to bottom, #0e1c97 0%, #0018f3 90%, rgba(255, 255, 255, 0) 100%);
-	color: #fff;
-	padding: 1.25em;
-	text-align: center;
-	width: 100%;
-	padding-top: 50px;
-}
-
-h1 {
-	font: var(--h1);
-	font-family: tahoma; 
-	font-size: clamp(16px, 5vw, 40px);
+a {
+	color: #28cbf4;
 }
 
 nav {
@@ -41,10 +39,9 @@ nav {
 	color: #fff;
 	padding: 0.625em;
 	text-align: center;
-	position: fixed;
+	/* position: fixed; */
 	width: 100%;
 	z-index: 1000;
-	font-size: clamp(12px, 100%, 16px);
 }
 
 nav a {
@@ -55,6 +52,21 @@ nav a {
 
 nav a:hover {
 	text-decoration: underline;
+}
+
+header {
+	/* background: linear-gradient(to bottom, #0e1c97 0%, #0018f3 90%, rgba(255, 255, 255, 0) 100%); */
+	/* background: #0e1c97; */
+	background: #0018f3;
+	color: white;
+	padding: 1.25em;
+	text-align: center;
+	/* width: 100%; */
+	/* padding-top: 50px; */
+}
+
+h1 {
+	font: var(--h1);
 }
 
 section {
@@ -84,13 +96,13 @@ footer {
 ul {
   list-style-type: disc;
   padding-left: 20px;
-  font-size: 30px;
+	font-size: 30px;
 }
 
 .google-calendar {
 	border: 0;
-	height: 40em;
-	width: clamp(20em, 100%, 50em);
+	width: 50em;
+	height: 50em;
 }
 
 .profile-picture {
@@ -108,14 +120,14 @@ ul {
   justify-content: center;  /* Centers horizontally */
 }
 
-.bg-animation {
+/* .bg-animation {
 	background: linear-gradient(-45deg, #ffffff, #a6baf8, #ffffff, #ebff67);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
 	height: 100vh;
-}
+} */
 
-@keyframes gradient {
+/* @keyframes gradient {
 	0% {
 		background-position: 0% 50%;
 	}
@@ -125,7 +137,7 @@ ul {
 	100% {
 		background-position: 0% 50%;
 	}
-}
+} */
 
 
 .animated-underline {
