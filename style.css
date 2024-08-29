@@ -30,10 +30,6 @@ p {
 	font: var(--p);
 }
 
-a {
-	color: #28cbf4;
-}
-
 nav {
 	background-color: #dfea4f;
 	color: #fff;
@@ -91,6 +87,10 @@ footer {
 	color: #fff;
 	padding: 0.625em;
 	text-align: center;
+}
+
+footer a {
+	color: #28cbf4;
 }
 
 ul {
