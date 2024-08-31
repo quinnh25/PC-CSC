@@ -39,7 +39,7 @@ nav {
 	color: #fff;
 	padding: 0.625em;
 	text-align: center;
-	/* position: fixed; */
+	position: fixed;
 	width: 100%;
 	z-index: 1000;
 }
