@@ -64,11 +64,14 @@ header {
 	/* background: #0e1c97; */
 	background-image: url("media/bg.jpg");
 	background-position: left-center;
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 	color: white;
 	padding: 1.25em;
 	text-align: center;
 	/* width: 100%; */
-	/* padding-top: 50px; */
+	padding-top: 50px;
 }
 
 h1 {
