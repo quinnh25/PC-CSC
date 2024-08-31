@@ -54,6 +54,11 @@ nav a:hover {
 	text-decoration: underline;
 }
 
+nav a:visited {
+	color: #000000;
+}
+
+
 header {
 	/* background: linear-gradient(to bottom, #0e1c97 0%, #0018f3 90%, rgba(255, 255, 255, 0) 100%); */
 	/* background: #0e1c97; */
