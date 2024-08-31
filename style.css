@@ -64,8 +64,7 @@ header {
 	/* background: #0e1c97; */
 	background-image: url("media/bg.jpg");
 	background-position: left-center;
-	background-repeat: no-repeat;
-  background-attachment: fixed;
+	background-repeat: repeat;
   background-position: center;
 	color: white;
 	padding: 1.25em;
