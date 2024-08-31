@@ -30,9 +30,7 @@ p {
 	font: var(--p);
 }
 
-a:visited {
-	color: blue;
-}
+
 
 nav {
 	background-color: #dfea4f;
