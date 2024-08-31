@@ -60,13 +60,13 @@ nav a:visited {
 
 
 header {
-	/* background: linear-gradient(to bottom, #0e1c97 0%, #0018f3 90%, rgba(255, 255, 255, 0) 100%); */
-	/* background: #0e1c97; */
-	background-image: url("media/bg.jpg");
+	background: linear-gradient(to bottom, #0e1c97 0%, #0018f3 90%, rgba(255, 255, 255, 0) 100%);
+	background: #0e1c97;
+	/*background-image: url("media/bg.jpg");
 	background-position: left-center;
 	background-repeat: repeat;
   background-position: center;
-	opacity:0.5;
+	opacity:0.5;*/
 	color: white;
 	padding: 1.25em;
 	text-align: center;
