@@ -62,7 +62,7 @@ nav a:visited {
 header {
 	/* background: linear-gradient(to bottom, #0e1c97 0%, #0018f3 90%, rgba(255, 255, 255, 0) 100%); */
 	/* background: #0e1c97; */
-	background: #0018f3;
+	background-image: url("media/bg.jpg");
 	color: white;
 	padding: 1.25em;
 	text-align: center;
