@@ -1,1 +1,81 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PC CS Club</title>
+    <link rel="stylesheet" href="../style.css">
+	<link rel="icon" href="../media\pccslogo2.png" type="image/png">
+	<script>
+	        var adPicture = new Array("../media/Jacob/jacob1.jpg", "../media/Jacob/jacob2.jpg", "../media/Jacob/jacob3.jpg", "../media/Jacob/jacob4.jpg")
+	
+	        var thisAd = 0
+	
+	        function cycle() {
+	            if (document.images) {
+	                if (document.adPicture.complete) {
+	                    thisAd++
+	                    if (thisAd == adPicture.length-1) {
+	                        thisAd = 0
+	                    }
+	                    document.adPicture.src = adPicture[thisAd]
+	                }
+	                setTimeout("cycle()", 3000)
+	            }
+	            else {
+	                i = 0
+	            }
+	        }
+	
+	        var newPic = 0
+	
+	        function chngImg() {
+	            var myImages = new Array("../media/Jacob/jacob1.jpg", "../media/Jacob/jacob2.jpg", "../media/Jacob/jacob3.jpg", "../media/Jacob/jacob4.jpg")
+	            newPic++
+	
+	            if (newPic > myImages.length-1) {
+	                newPic = 0
+	            }
+	
+	            document.mypic.src = myImages[newPic]
+	            return false
+	        }
+    	</script>
+</head>
+<body>
+	<nav>
+		<a href="/index.html">Home</a>
+		<a href="/members.html">Meet The Team</a>
+		<a href="/events.html">Event Information</a>
+	</nav>
+    <header>
+        <img src="../media/jacob.jpg" alt="Profile Picture" class="profile-picture">
+        <h1>Jacob Kensler</h1>
+        
+    </header>
+	<div>
+        <!-- ! unordered list about hobbies, activities, personal interests, etc.> -->
+		<p>Hi! I'm Rylan, a senior at PC. I've been programming for a couple weeks now and have started learening algorithms and solving problems. I love helping others with computer science!</p>
+        <h2>Sports, Activities, and Hobbies</h2>
+        <ul>
+            <li>Music</li>
+            <ul>
+                <li>Marching Band</li>
+                <li>Percussion</li>
+                <li>Piano</li>
+            </ul>
+            <li>Track and Field 800m</li>
+            <li>Gaming</li>
+            <li>Partying</li>
+            <li>Getting lit</li>
+        </ul>
+
+    </div>
+	<div> <!--Slideshow -->
+		<a href="" onclick="return chngImg()">
+            	<img name="mypic" src="../media/Jacob/jacob1.jpg" height="300px" alt="slideshow"> </a>
+            	<p>(click to cycle)</p>
+	</div>
+</body>
+</html>
