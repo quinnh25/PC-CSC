@@ -193,7 +193,7 @@ body .competition-section {
     border-radius: 8px; /* Rounded corners */
     padding: 1.25em; /* Match padding of other divs */
     margin: 1.25rem auto; /* Match margin of other divs */
-    max-width: 100%; /* Ensure it fills the available width */
+    max-width: 75%; /* Ensure it fills the available width */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
