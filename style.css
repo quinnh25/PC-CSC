@@ -187,3 +187,39 @@ ul {
     }
   }
 
+.competition-section {
+    background-color: #f8f9fa; /* Light gray for subtle contrast */
+    border: 1px solid #ddd; /* Soft border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Spacing inside the box */
+    margin: 20px auto; /* Space around the box */
+    max-width: 800px; /* Constrain width for readability */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.competition-section h2 {
+    color: #007bff; /* Highlighted blue for the title */
+    font-size: 1.5rem; /* Slightly larger font size */
+    margin-bottom: 10px; /* Space below the heading */
+    text-align: center; /* Center the title */
+    text-transform: uppercase; /* Make title uppercase */
+    letter-spacing: 1px; /* Add spacing between letters */
+}
+
+.competition-section p {
+    font-size: 1rem; /* Readable font size */
+    line-height: 1.6; /* Add spacing between lines */
+    color: #333; /* Darker text for contrast */
+}
+
+.competition-section a {
+    color: #007bff; /* Match links with the title color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make links stand out */
+}
+
+.competition-section a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+
