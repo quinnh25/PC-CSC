@@ -189,7 +189,7 @@ ul {
 
 body .competition-section {
     background-color: #f8f9fa; /* Light gray for subtle contrast */
-    border: 1px solid #ddd; /* Soft border */
+    border: 3px solid #007bff; /* Blue border with thicker width */
     border-radius: 8px; /* Rounded corners */
     padding: 20px; /* Spacing inside the box */
     margin: 20px auto; /* Space around the box */
