@@ -222,4 +222,17 @@ body .competition-section a:hover {
     text-decoration: underline; /* Add underline on hover */
 }
 
+body .competition-section ul {
+    list-style-type: disc; /* Default bullet style */
+    padding-left: 1.5em; /* Indent from the left */
+    font-size: 1rem; /* Match font size of other text in the section */
+    line-height: 1.6; /* Consistent line spacing */
+    margin-top: 0.5em; /* Add spacing above the list */
+    margin-bottom: 0.5em; /* Add spacing below the list */
+}
+
+body .competition-section ul li {
+    margin-bottom: 0.25em; /* Space between bullet points */
+}
+
 
