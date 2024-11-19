@@ -216,10 +216,10 @@ body .competition-section h2 {
 
 body .competition-section p {
     font-family: 'Montserrat', sans-serif !important; 
-    font-size: 1.1rem; /* Slightly larger and more modern font size */
+    font-size: 1.2rem; /* Slightly larger and more modern font size */
     line-height: 1.8; /* Add more spacing between lines for readability */
     color: #333; /* Darker text for contrast */
-    font-weight: 400; /* Standard weight for paragraphs */
+    font-weight: 500; /* Standard weight for paragraphs */
 }
 
 body .competition-section a {
