@@ -198,13 +198,18 @@ body .competition-section {
 }
 
 body .competition-section h2 {
-    color: #007bff; /* Highlighted blue for the title */
-    font-size: 1.5rem; /* Slightly larger font size */
+    font-size: 1.7rem; /* Slightly larger font size */
     margin-bottom: 10px; /* Space below the heading */
     text-align: center; /* Center the title */
     text-transform: uppercase; /* Make title uppercase */
     letter-spacing: 1px; /* Add spacing between letters */
+    background: linear-gradient(to right, #6fbfff, #0047ab); /* Light blue to dark blue gradient */
+    -webkit-background-clip: text; /* Clip background to text */
+    -webkit-text-fill-color: transparent; /* Make the background visible and text transparent */
+    background-clip: text; /* Standard property for clipping background */
+    text-fill-color: transparent; /* Standard property for text color */
 }
+
 
 body .competition-section p {
     font-size: 1rem; /* Readable font size */
