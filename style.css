@@ -206,7 +206,7 @@ body .competition-section h2 {
     text-align: center; 
     text-transform: uppercase; 
     letter-spacing: 2px; 
-    background: linear-gradient(to right, #4fc1fe, #4f52fe, #844ffe); 
+    background: #4f52fe; 
     -webkit-background-clip: text; 
     -webkit-text-fill-color: transparent; 
     background-clip: text; 
