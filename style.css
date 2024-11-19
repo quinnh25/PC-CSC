@@ -190,6 +190,7 @@ ul {
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
 
 body .competition-section {
+    font-family: 'Montserrat', sans-serif;
     background-color: #f8f9fa; /* Light gray for subtle contrast */
     border: 5px solid #007bff; /* Blue border with thicker width */
     border-radius: 8px; /* Rounded corners */
@@ -197,7 +198,6 @@ body .competition-section {
     margin: 1.25rem auto; /* Match margin of other divs */
     max-width: 75%; /* Ensure it fills the available width */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    font-family: 'Montserrat', sans-serif; /* Apply Montserrat font */
 }
 
 body .competition-section h2 {
