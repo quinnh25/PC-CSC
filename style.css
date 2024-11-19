@@ -238,7 +238,7 @@ body .competition-section ul {
     font-family: 'Montserrat', sans-serif; /* Apply Montserrat font */
     list-style-type: disc; /* Default bullet style */
     padding-left: 1.5em; /* Indent from the left */
-    font-size: 1rem; /* Match font size of other text in the section */
+    font-size: 1.2rem; /* Match font size of other text in the section */
     line-height: 1.6; /* Consistent line spacing */
     margin-top: 0.5em; /* Add spacing above the list */
     margin-bottom: 0.5em; /* Add spacing below the list */
