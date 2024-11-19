@@ -201,6 +201,7 @@ body .competition-section {
 }
 
 body .competition-section h2 {
+    font-family: 'Poppins', sans-serif;
     font-size: 2rem; /* Larger font size for more impact */
     margin-bottom: 10px; /* Space below the heading */
     text-align: center; /* Center the title */
@@ -219,6 +220,7 @@ body .competition-section p {
     line-height: 1.8; /* Add more spacing between lines for readability */
     color: #333; /* Darker text for contrast */
     font-weight: 400; /* Standard weight for paragraphs */
+    font-family: 'Poppins', sans-serif;
 }
 
 body .competition-section a {
@@ -234,6 +236,7 @@ body .competition-section a:hover {
 }
 
 body .competition-section ul {
+    font-family: 'Poppins', sans-serif;
     list-style-type: disc; /* Default bullet style */
     padding-left: 1.5em; /* Indent from the left */
     font-size: 1rem; /* Match font size of other text in the section */
