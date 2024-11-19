@@ -189,37 +189,37 @@ ul {
   }
 
 body .competition-section {
-    font-family: 'Montserrat', sans-serif;
-    background-color: #f8f9fa; /* Light gray for subtle contrast */
-    border: 5px solid #007bff; /* Blue border with thicker width */
-    border-radius: 8px; /* Rounded corners */
-    padding: 1.25em; /* Match padding of other divs */
-    margin: 1.25rem auto; /* Match margin of other divs */
-    max-width: 75%; /* Ensure it fills the available width */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    font-family: 'Montserrat', sans-serif !important;
+    background-color: #f8f9fa; 
+    border: 5px solid #007bff;
+    border-radius: 8px; 
+    padding: 1.25em; 
+    margin: 1.25rem auto; 
+    max-width: 75%; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
 }
 
 body .competition-section h2 {
-    font-family: 'Montserrat', sans-serif; /* Apply Montserrat font */
-    font-size: 2rem; /* Larger font size for more impact */
-    margin-bottom: 10px; /* Space below the heading */
-    text-align: center; /* Center the title */
-    text-transform: uppercase; /* Make title uppercase */
-    letter-spacing: 2px; /* Add more spacing between letters for style */
-    background: linear-gradient(to right, #4fc1fe, #4f52fe, #844ffe); /* Light blue to dark blue gradient */
-    -webkit-background-clip: text; /* Clip background to text */
-    -webkit-text-fill-color: transparent; /* Make the background visible and text transparent */
-    background-clip: text; /* Standard property for clipping background */
-    text-fill-color: transparent; /* Standard property for text color */
-    font-weight: 700; /* Bold for a strong impact */
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 2rem; 
+    margin-bottom: 10px; 
+    text-align: center; 
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+    background: linear-gradient(to right, #4fc1fe, #4f52fe, #844ffe); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    background-clip: text; 
+    text-fill-color: transparent; 
+    font-weight: 700; 
 }
 
 body .competition-section p {
+    font-family: 'Montserrat', sans-serif !important; 
     font-size: 1.1rem; /* Slightly larger and more modern font size */
     line-height: 1.8; /* Add more spacing between lines for readability */
     color: #333; /* Darker text for contrast */
     font-weight: 400; /* Standard weight for paragraphs */
-    font-family: 'Montserrat', sans-serif; /* Apply Montserrat font */
 }
 
 body .competition-section a {
