@@ -12,7 +12,7 @@
 } */
 
 :root {
-	--font-family: 'Roboto', sans-serif;
+	--font-family: 'Monserrat', sans-serif;
 	--p: 1rem/120% var(--font-family);
 	--h1: bold 2.98rem/120% var(--font-family);
 	scroll-behavior: smooth;
