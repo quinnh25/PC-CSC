@@ -187,21 +187,21 @@ ul {
     }
   }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
 
 body .competition-section {
     background-color: #f8f9fa; /* Light gray for subtle contrast */
-    border: 3px solid #007bff; /* Blue border with thicker width */
+    border: 5px solid #007bff; /* Blue border with thicker width */
     border-radius: 8px; /* Rounded corners */
     padding: 1.25em; /* Match padding of other divs */
     margin: 1.25rem auto; /* Match margin of other divs */
     max-width: 75%; /* Ensure it fills the available width */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    font-family: 'Poppins', sans-serif; /* Apply Poppins font */
+    font-family: 'Montserrat', sans-serif; /* Apply Montserrat font */
 }
 
 body .competition-section h2 {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif; /* Apply Montserrat font */
     font-size: 2rem; /* Larger font size for more impact */
     margin-bottom: 10px; /* Space below the heading */
     text-align: center; /* Center the title */
@@ -220,7 +220,7 @@ body .competition-section p {
     line-height: 1.8; /* Add more spacing between lines for readability */
     color: #333; /* Darker text for contrast */
     font-weight: 400; /* Standard weight for paragraphs */
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif; /* Apply Montserrat font */
 }
 
 body .competition-section a {
@@ -236,7 +236,7 @@ body .competition-section a:hover {
 }
 
 body .competition-section ul {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif; /* Apply Montserrat font */
     list-style-type: disc; /* Default bullet style */
     padding-left: 1.5em; /* Indent from the left */
     font-size: 1rem; /* Match font size of other text in the section */
@@ -248,5 +248,6 @@ body .competition-section ul {
 body .competition-section ul li {
     margin-bottom: 0.25em; /* Space between bullet points */
 }
+
 
 
