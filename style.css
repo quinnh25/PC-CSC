@@ -206,7 +206,7 @@ body .competition-section h2 {
     text-align: center; /* Center the title */
     text-transform: uppercase; /* Make title uppercase */
     letter-spacing: 2px; /* Add more spacing between letters for style */
-    background: linear-gradient(to right, #74e7fe, #4fc1fe, #4f52fe); /* Light blue to dark blue gradient */
+    background: linear-gradient(to right, #4fc1fe, #4f52fe, #844ffe); /* Light blue to dark blue gradient */
     -webkit-background-clip: text; /* Clip background to text */
     -webkit-text-fill-color: transparent; /* Make the background visible and text transparent */
     background-clip: text; /* Standard property for clipping background */
