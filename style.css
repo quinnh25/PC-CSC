@@ -187,6 +187,8 @@ ul {
     }
   }
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
 body .competition-section {
     background-color: #f8f9fa; /* Light gray for subtle contrast */
     border: 3px solid #007bff; /* Blue border with thicker width */
@@ -195,35 +197,39 @@ body .competition-section {
     margin: 1.25rem auto; /* Match margin of other divs */
     max-width: 75%; /* Ensure it fills the available width */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    font-family: 'Poppins', sans-serif; /* Apply Poppins font */
 }
 
 body .competition-section h2 {
-    font-size: 1.7rem; /* Slightly larger font size */
+    font-size: 2rem; /* Larger font size for more impact */
     margin-bottom: 10px; /* Space below the heading */
     text-align: center; /* Center the title */
     text-transform: uppercase; /* Make title uppercase */
-    letter-spacing: 1px; /* Add spacing between letters */
+    letter-spacing: 2px; /* Add more spacing between letters for style */
     background: linear-gradient(to right, #6fbfff, #0047ab); /* Light blue to dark blue gradient */
     -webkit-background-clip: text; /* Clip background to text */
     -webkit-text-fill-color: transparent; /* Make the background visible and text transparent */
     background-clip: text; /* Standard property for clipping background */
     text-fill-color: transparent; /* Standard property for text color */
+    font-weight: 700; /* Bold for a strong impact */
 }
 
-
 body .competition-section p {
-    font-size: 1rem; /* Readable font size */
-    line-height: 1.6; /* Add spacing between lines */
+    font-size: 1.1rem; /* Slightly larger and more modern font size */
+    line-height: 1.8; /* Add more spacing between lines for readability */
     color: #333; /* Darker text for contrast */
+    font-weight: 400; /* Standard weight for paragraphs */
 }
 
 body .competition-section a {
     color: #007bff; /* Match links with the title color */
     text-decoration: none; /* Remove underline */
-    font-weight: bold; /* Make links stand out */
+    font-weight: 600; /* Make links stand out */
+    transition: color 0.3s ease; /* Smooth hover effect */
 }
 
 body .competition-section a:hover {
+    color: #0056b3; /* Darker blue on hover */
     text-decoration: underline; /* Add underline on hover */
 }
 
