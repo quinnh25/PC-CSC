@@ -190,13 +190,14 @@ ul {
 
 body .competition-section {
     font-family: 'Montserrat', sans-serif !important;
-    background-color: #f8f9fa; 
-    border: 5px solid #007bff;
-    border-radius: 8px; 
-    padding: 1.25em; 
-    margin: 1.25rem auto; 
-    max-width: 75%; 
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    background-color: #f8f9fa;
+    border: 5px solid transparent; /* Ensure the gradient shows through */
+    border-radius: 8px;
+    padding: 1.25em;
+    margin: 1.25rem auto;
+    max-width: 75%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-image: linear-gradient(to right, lightblue, purple) 1;
 }
 
 body .competition-section h2 {
