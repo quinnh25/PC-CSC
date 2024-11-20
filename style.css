@@ -12,7 +12,7 @@
 } */
 
 :root {
-	--font-family: 'Monserrat', sans-serif;
+	--font-family: 'Montserrat', sans-serif;
 	--p: 1rem/120% var(--font-family);
 	--h1: bold 2.98rem/120% var(--font-family);
 	scroll-behavior: smooth;
