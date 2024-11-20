@@ -197,7 +197,7 @@ body .competition-section {
     margin: 1.25rem auto;
     max-width: 75%;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border-image: linear-gradient(to right, lightblue, purple) 1;
+    border-image: linear-gradient(to right, lightblue, lightpurple) 1;
 }
 
 body .competition-section h2 {
