@@ -213,7 +213,7 @@ body .competition-section h2 {
 
 body .competition-section h2 .highlight {
     font-weight: bold;
-    color: #ff6347 !important; /* Vibrant contrasting color */
+    color: #7c3cfd !important; /* Vibrant contrasting color */
     font-size: 3rem; /* Increased size for stronger emphasis */
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Add a subtle shadow for depth */
     letter-spacing: 3px; /* Slightly increased letter spacing for more prominence */
