@@ -206,11 +206,7 @@ body .competition-section h2 {
     text-align: center; 
     text-transform: uppercase; 
     letter-spacing: 2px; 
-    background: #4f52fe; 
-    -webkit-background-clip: text; 
-    -webkit-text-fill-color: transparent; 
-    background-clip: text; 
-    text-fill-color: transparent; 
+    color: #758dfc;
     font-weight: 700; 
 }
 
